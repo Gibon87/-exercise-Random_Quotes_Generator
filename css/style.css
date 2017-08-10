@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #000 url('../images/woman.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box {
+    background: rgba(0, 0, 0, 0.3);
+    width: 60vw;
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px gray;
+    text-shadow: 5px 5px 5px gray;
+}
+.quote {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+.author {
+    font-family: 'EB Garamond', serif;
+}
+.share {
+    float: left;
+}
+.buttonDiv {
+    clear: both;
+    padding-top: 10px;
+}
+.trigger {
+    width: 150px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color: black;
+    text-shadow: 1px 1px 5px white;
+    box-shadow: 5px 5px 5px gray;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.trigger:hover {
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(0.98);
+        -ms-transform: scale(0.98);
+            transform: scale(0.98);
+    cursor: pointer;
+}
+.share {
+    width: 250px;
+        margin-top: 100px;
+}
+i.fa {
+    font-size: 72px;
+    color: #4099FF;
+    transition: 0.4s;
+    -webkit-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+            transform: rotate(10deg);
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+            transform: scale(1.4);
+    text-shadow: 5px 5px 5px gray;
+}
+i.fa:hover {
+    transform: scale(1.3);
+
+
