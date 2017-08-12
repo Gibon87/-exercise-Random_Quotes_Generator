@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #000 url('../images/woman.jpeg');
+    background: #fff url('../images/woman.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -67,5 +67,35 @@ i.fa {
 }
 i.fa:hover {
     transform: scale(1.3);
+}
 
-
+@media screen and (min-width: 531px) and (max-width: 768px) {
+    body {
+        background-size: 700%;
+    }
+    .box {
+        float: none;
+        margin: 20vh auto 0;
+    }
+    .share {
+        float: none;
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width: 530px) {
+    body {
+        background-size: 700%;
+    }
+    .box {
+        float: none;
+        margin: 10vh auto 0;
+        width: 100%;
+    }
+    .share {
+        float: none;
+        margin: 30px auto;
+    }
+    .share i.fa {
+        font-size: 40px;
+    }
+}
