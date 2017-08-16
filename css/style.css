@@ -50,11 +50,7 @@ body {
     cursor: pointer;
 }
 .trigger:focus {
-<<<<<<< HEAD
 	outline: none;
-=======
-    outline: none;
->>>>>>> ca59d6f9ef2b30dbbf2262e01538be182f710b64
 }
 .share {
     width: 250px;
