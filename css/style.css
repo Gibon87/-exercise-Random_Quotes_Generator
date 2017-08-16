@@ -50,7 +50,7 @@ body {
     cursor: pointer;
 }
 .trigger:focus {
-	outline: none;
+    outline: none;
 }
 .share {
     width: 250px;
