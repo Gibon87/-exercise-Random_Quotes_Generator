@@ -51,6 +51,7 @@ body {
 }
 .trigger:focus {
     outline: none;
+}
 .share {
     width: 250px;
         margin-top: 100px;
